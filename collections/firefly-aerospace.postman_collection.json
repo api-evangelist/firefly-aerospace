@@ -1,0 +1,29 @@
+{
+  "info": {
+    "name": "Firefly Aerospace",
+    "description": "Firefly Aerospace does not publish a public developer API. This Postman collection is an intentionally minimal placeholder maintained for catalog consistency. Firefly's offerings - Alpha and Eclipse launch, Blue Ghost lunar delivery, and Elytra/Ocula on-orbit services - are arranged through sales, the \"Book A Ride\" web inquiry workflow, and published Payload User's Guides, not through a programmatic API. The link below points to Firefly's public website rather than an API endpoint.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Firefly Aerospace Website (no public API)",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://fireflyspace.com/",
+          "protocol": "https",
+          "host": [
+            "fireflyspace",
+            "com"
+          ],
+          "path": [
+            ""
+          ]
+        },
+        "description": "Public marketing and product website. Firefly Aerospace exposes no public developer API; this request simply fetches the website homepage."
+      },
+      "response": []
+    }
+  ]
+}

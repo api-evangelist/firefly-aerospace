@@ -1,0 +1,21 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Firefly Aerospace",
+    "version": "0.0",
+    "description": "Firefly Aerospace does not publish a public developer API. This Open Collection is an intentionally minimal placeholder maintained for catalog consistency. Firefly's offerings - Alpha and Eclipse launch, Blue Ghost lunar delivery, and Elytra/Ocula on-orbit services - are arranged through sales, the \"Book A Ride\" web inquiry workflow, and published Payload User's Guides, not through a programmatic API."
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Firefly Aerospace Website (no public API)",
+        "type": "http"
+      },
+      "http": {
+        "method": "GET",
+        "url": "https://fireflyspace.com/"
+      },
+      "docs": "Public marketing and product website. Firefly Aerospace exposes no public developer API; this request simply fetches the website homepage."
+    }
+  ]
+}

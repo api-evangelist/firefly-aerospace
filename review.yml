@@ -1,0 +1,68 @@
+aid: firefly-aerospace
+name: Firefly Aerospace
+review:
+  question: Does Firefly Aerospace expose a documented public developer API?
+  answer: false
+  date: '2026-06-20'
+  reviewer: API Evangelist
+  asyncapiSpecCreated: false
+  asyncapiScopeNote: |
+    No AsyncAPI document was created. Firefly Aerospace exposes no public
+    HTTP/REST API, no WebSocket surface, and no Server-Sent Events streaming
+    API. There is no event-driven or messaging API surface to model.
+findings:
+  summary: |
+    Firefly Aerospace does not publish a public developer API. Firefly is a
+    space transportation company whose offerings are physical launch and
+    space services: the Alpha small-lift rocket, the Eclipse (formerly MLV)
+    medium-lift vehicle, the Blue Ghost lunar lander, and the Elytra orbital
+    vehicle (including the Ocula commercial lunar imaging service). Customer
+    engagement happens through sales contact, the "Book A Ride"
+    rideshare/payload web inquiry workflow, and published Payload User's
+    Guides (e.g., the Alpha PUG) - not through any programmatic REST, GraphQL,
+    WebSocket, or SSE API. No developer portal, API reference, API keys,
+    OpenAPI specification, or SDKs are published on fireflyspace.com as of the
+    review date. The product entries in apis.yml are informational surfaces
+    documenting Firefly's offerings for catalog completeness, not live APIs.
+  transports:
+    - protocol: REST
+      scheme: https
+      documented: false
+      note: No public REST API is documented on fireflyspace.com.
+    - protocol: WebSocket
+      scheme: wss
+      documented: false
+      note: No WebSocket endpoint is documented.
+    - protocol: SSE
+      scheme: https
+      documented: false
+      note: No Server-Sent Events streaming API is documented.
+  endpointsConfirmedRest: []
+sources:
+  - url: https://fireflyspace.com/
+    type: Website
+    note: Homepage navigation covers Launch, Lunar, Orbit, Missions, News, Careers, Investors, and "Book A Ride" - no developer or API section.
+  - url: https://fireflyspace.com/alpha/
+    type: Documentation
+    note: Alpha launch vehicle product page; payload integration via the Payload User's Guide, not an API.
+  - url: https://fireflyspace.com/elytra/
+    type: Documentation
+    note: Elytra orbital vehicle and Ocula imaging service; described as a service, no API surface.
+  - url: https://fireflyspace.com/book-a-ride/
+    type: Documentation
+    note: Rideshare/payload booking is a sales inquiry web workflow, not a programmatic booking API.
+  - url: https://fireflyspace.com/wp-content/uploads/2025/07/Alpha-PUG-5.2.pdf
+    type: PayloadUserGuide
+    note: Alpha Payload User's Guide describing mechanical/electrical payload accommodation and rideshare; no API.
+actions:
+  asyncapiPath: null
+  apisYmlUpdated: true
+  reason: |
+    No public API surface exists. The catalog documents Firefly's product
+    offerings as informational entries with humanURLs and an empty-paths
+    OpenAPI placeholder. Plans, rate-limits, and finops artifacts are all
+    marked reconciled: false because there is no public API pricing,
+    throttling, or usage-based billing to reconcile.
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com

@@ -1,0 +1,35 @@
+specification: API Commons Rate Limits
+specificationVersion: '0.1'
+schema: https://raw.githubusercontent.com/api-evangelist/interface-research/main/schema/api-commons.yml#/$defs/RateLimits
+provider: Firefly Aerospace
+providerId: firefly-aerospace
+created: '2026-06-20'
+modified: '2026-06-20'
+reconciled: false
+tags:
+- Space
+- Aerospace
+- Launch
+- Lunar
+- Spacecraft
+- Rate Limiting
+- Quotas
+- Throttling
+description: >-
+  Firefly Aerospace does not expose a public developer API, so there are no
+  programmatic rate limits, quotas, or throttling policies to document. Its
+  product surfaces (Alpha, Eclipse, Blue Ghost, Elytra/Ocula, and the "Book A
+  Ride" rideshare/payload workflow) are sales- and mission-integration-driven,
+  not request-metered.
+notes: >-
+  No API rate limits exist; reconciled is false because there is no public API
+  to reconcile against. This artifact is maintained for catalog consistency.
+sources:
+- https://fireflyspace.com/
+- https://fireflyspace.com/book-a-ride/
+responseCodes: {}
+limits: []
+policies: []
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com

@@ -1,0 +1,37 @@
+specification: API Commons Plans
+specificationVersion: '0.1'
+schema: https://raw.githubusercontent.com/api-evangelist/interface-research/main/schema/api-commons.yml#/$defs/Plans
+provider: Firefly Aerospace
+providerId: firefly-aerospace
+created: '2026-06-20'
+modified: '2026-06-20'
+reconciled: false
+tags:
+- Space
+- Aerospace
+- Launch
+- Lunar
+- Spacecraft
+- Plans
+description: >-
+  Firefly Aerospace does not sell access to a developer API and therefore has no
+  API plans, tiers, or usage-based metering. Its commercial offerings are
+  capital launch and space services - Alpha and Eclipse launch, Blue Ghost lunar
+  delivery, and Elytra/Ocula on-orbit services - priced per mission through
+  custom contracts and sales engagement rather than published self-serve plans.
+notes: >-
+  No API plans exist; reconciled is false because there is no public API pricing
+  to reconcile. For context only (not an API plan): the Alpha launch vehicle has
+  a publicly cited list price of roughly $15M-$17.6M per dedicated launch, and
+  Alpha also offers rideshare/payload slots inquired via the "Book A Ride"
+  workflow and the Alpha Payload User's Guide. Mission pricing for Eclipse, Blue
+  Ghost, and Elytra/Ocula is quoted per contract and not publicly listed.
+sources:
+- https://fireflyspace.com/
+- https://fireflyspace.com/alpha/
+- https://fireflyspace.com/wp-content/uploads/2025/07/Alpha-PUG-5.2.pdf
+- https://en.wikipedia.org/wiki/Firefly_Alpha
+plans: []
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com

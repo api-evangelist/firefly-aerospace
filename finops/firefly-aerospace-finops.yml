@@ -1,0 +1,71 @@
+specification: FinOps Framework
+specificationVersion: '1.0'
+schema: https://www.finops.org/framework/
+provider: Firefly Aerospace
+providerId: firefly-aerospace
+created: '2026-06-20'
+modified: '2026-06-20'
+reconciled: false
+tags:
+- Space
+- Aerospace
+- Launch
+- Lunar
+- Spacecraft
+- FinOps
+- Cost Management
+- FOCUS
+description: >-
+  FinOps view of Firefly Aerospace. Firefly does not operate a public,
+  usage-metered developer API, so there is no per-request, per-token, or
+  per-call cloud-style billing to model under a FinOps/FOCUS lens. Firefly's
+  costs are mission-based capital procurements - dedicated Alpha and Eclipse
+  launches, Blue Ghost lunar delivery, and Elytra/Ocula on-orbit services -
+  contracted per engagement rather than consumed as cloud spend.
+notes: >-
+  No API consumption meters exist; reconciled is false because there is no
+  usage-based API billing to reconcile. For context only, Alpha dedicated
+  launches carry a publicly cited list price of roughly $15M-$17.6M; all other
+  mission pricing is quoted per contract. This artifact is maintained for
+  catalog consistency.
+sources:
+- https://fireflyspace.com/
+- https://fireflyspace.com/alpha/
+- https://en.wikipedia.org/wiki/Firefly_Alpha
+- https://focus.finops.org/focus-specification/v1-3/
+alignedWith:
+  framework: FinOps Foundation Framework
+  frameworkUrl: https://www.finops.org/framework/
+  dataSpec: FOCUS
+  dataSpecVersion: '1.3'
+  dataSpecUrl: https://focus.finops.org/focus-specification/v1-3/
+publisherName: Firefly Aerospace
+serviceCategory: Space and Launch Services
+billingModel:
+  pricingCategory: Contract-Based
+  billingFrequency: Per Mission
+  billingCurrency: USD
+  chargeCategories:
+  - Purchase
+focusColumns:
+  ServiceName: Firefly Launch and Space Services
+  ServiceCategory: Space and Launch Services
+  ProviderName: Firefly Aerospace
+  PublisherName: Firefly Aerospace
+  InvoiceIssuerName: Firefly Aerospace
+  BillingCurrency: USD
+  ChargeCategory: Purchase
+  PricingCategory: Contract-Based
+meters: []
+principles:
+- name: Visibility
+  description: Track committed mission/launch contracts; there is no per-request API spend to monitor.
+- name: Allocation
+  description: Map launch and mission contracts to programs/payloads rather than API keys.
+- name: Optimization
+  description: Consider rideshare/payload slots on Alpha versus dedicated launches to reduce per-payload cost.
+- name: Accountability
+  description: Assign mission owners and review contracted launch and service spend per program.
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
