@@ -102,6 +102,8 @@ apis:
     inquiry / web form workflow, not a programmatic API; there is no public booking
     or developer API documented.
 common:
+- type: DomainSecurity
+  url: security/firefly-aerospace-domain-security.yml
 - type: LinkedIn
   url: https://www.linkedin.com/company/firefly-aerospace
 - type: Website
@@ -114,6 +116,8 @@ common:
   url: rate-limits/firefly-aerospace-rate-limits.yml
 - type: FinOps
   url: finops/firefly-aerospace-finops.yml
+- type: Blog
+  url: https://fireflyspace.com/news/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
