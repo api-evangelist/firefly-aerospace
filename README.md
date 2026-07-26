@@ -19,11 +19,6 @@ Firefly Aerospace is an end-to-end space transportation company building the Alp
 
 ## APIs
 
-### Firefly Alpha Launch
-
-Alpha is Firefly's operational small-lift orbital launch vehicle in the ~1,000 kg class, serving dedicated and rideshare customers. This is an informational product surface; Firefly exposes no public developer API for Alpha. Booking and integration are handled through Firefly sales and the Alpha Payload User's Guide.
-
-- **Human URL:** [https://fireflyspace.com/alpha/](https://fireflyspace.com/alpha/)
 
 #### Tags
 
@@ -36,11 +31,6 @@ Alpha is Firefly's operational small-lift orbital launch vehicle in the ~1,000 k
 - [Documentation](https://fireflyspace.com/alpha/)
 - [Payload User Guide](https://fireflyspace.com/wp-content/uploads/2025/07/Alpha-PUG-5.2.pdf)
 
-### Firefly Eclipse Launch
-
-Eclipse (formerly the Medium Launch Vehicle, MLV) is Firefly's medium-lift, reusable launch vehicle co-developed with Northrop Grumman, targeting roughly 16,000 kg to orbit. This is an informational product surface; no public developer API is offered. Launch services are arranged through Firefly sales.
-
-- **Human URL:** [https://fireflyspace.com/eclipse/](https://fireflyspace.com/eclipse/)
 
 #### Tags
 
@@ -52,11 +42,6 @@ Eclipse (formerly the Medium Launch Vehicle, MLV) is Firefly's medium-lift, reus
 
 - [Documentation](https://fireflyspace.com/eclipse/)
 
-### Firefly Blue Ghost Lunar Lander
-
-Blue Ghost is Firefly's lunar lander for delivering and hosting payloads on the lunar surface, including NASA Commercial Lunar Payload Services (CLPS) task orders. This is an informational mission/services surface; no public developer API is offered. Payload accommodation is arranged through Firefly sales and mission integration teams.
-
-- **Human URL:** [https://fireflyspace.com/blue-ghost/](https://fireflyspace.com/blue-ghost/)
 
 #### Tags
 
@@ -68,11 +53,6 @@ Blue Ghost is Firefly's lunar lander for delivering and hosting payloads on the 
 
 - [Documentation](https://fireflyspace.com/blue-ghost/)
 
-### Firefly Elytra Orbital Vehicle
-
-Elytra is Firefly's multi-mission orbital vehicle (Dawn, Dusk, and Dark configurations) providing in-space maneuverability, hosting, and servicing, and is the platform for the Ocula commercial lunar imaging service. This is an informational product surface; no public developer API is offered. Engagements are arranged through Firefly sales.
-
-- **Human URL:** [https://fireflyspace.com/elytra/](https://fireflyspace.com/elytra/)
 
 #### Tags
 
@@ -85,11 +65,6 @@ Elytra is Firefly's multi-mission orbital vehicle (Dawn, Dusk, and Dark configur
 - [Documentation](https://fireflyspace.com/elytra/)
 - [Documentation](https://fireflyspace.com/ocula/)
 
-### Firefly Rideshare and Payload Booking
-
-Firefly's "Book A Ride" rideshare and payload booking experience lets prospective customers inquire about available flights and orbits. It is a sales inquiry / web form workflow, not a programmatic API; there is no public booking or developer API documented.
-
-- **Human URL:** [https://fireflyspace.com/book-a-ride/](https://fireflyspace.com/book-a-ride/)
 
 #### Tags
 
