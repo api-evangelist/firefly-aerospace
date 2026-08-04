@@ -1,0 +1,14 @@
+{
+  "provider": "firefly-aerospace",
+  "sources": [
+    "firefly-aerospace-openapi.yml"
+  ],
+  "outputs": [],
+  "archived": [
+    "archived firefly-aerospace-openapi.yml"
+  ],
+  "errors": [],
+  "warnings": [],
+  "notes": [],
+  "skipped": []
+}
