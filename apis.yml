@@ -3,6 +3,17 @@ url: https://raw.githubusercontent.com/api-evangelist/firefly-aerospace/refs/hea
 name: Firefly Aerospace
 kind: company
 description: Firefly Aerospace is an end-to-end space transportation company building the Alpha small-lift rocket, the Eclipse (formerly MLV) medium-lift vehicle, the Blue Ghost lunar lander, and the Elytra orbital vehicle (with the Ocula lunar imaging service). Firefly sells launch, lunar delivery, and on-orbit services through sales and payload-user-guide channels; it does not publish a public developer API.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: paid
   onboarding: unknown
