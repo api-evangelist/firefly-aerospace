@@ -40,10 +40,12 @@ tags_raw:
   - Lunar
   - Spacecraft
 created: '2026-06-20'
-modified: '2026-07-25'
+modified: '2026-10-06'
 specificationVersion: '0.23'
 apis: []
 common:
+  - url: https://fireflyspace.com/feed/
+    type: BlogRSS
   - type: DomainSecurity
     url: security/firefly-aerospace-domain-security.yml
   - type: LinkedIn
